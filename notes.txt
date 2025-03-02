@@ -1,0 +1,99 @@
+aik user hai
+aik server
+user apna code bhje ga server ko, or phr kuch instructions or code hum ai ko bhje ge or phr ai code ko review krega or phr server ko review bheje ga or phr server se user ko bhje ge.
+
+Step 1:
+_______
+
+pehle hum backend create krenge or api create krenge takay ai se interact kr pae
+
+
+Step 2:
+_______
+
+go to ai.google.dev
+
+
+Google gemini key use krne ke liye dotenv package install krna prhta hai.
+
+
+_________________________________________________________________________
+
+✅ app.use('/ai', aiRoutes);
+
+URL banega:
+
+http://localhost:3000/ai/get-response
+
+✅ Kyun Use Karte Hai?
+
+Saare related routes ek saath rahte hai
+
+Example: /ai/get-response, /ai/generate-code, /ai/check-bugs
+
+_________________________________________________________________________
+
+npm i prismjs
+
+prismjs is used to highlight the code / text
+
+ Prismjs JavaScript library hai. Prism.js ek lightweight, fast aur customizable syntax highlighter hai jo code snippets ko visually attractive aur readable banata hai. 
+
+
+ _________________________________________________________________________
+
+ Code editable krne ke liye hum use ye wala package use krenge:
+
+ npm i react-simple-code-editor
+
+
+
+
+ _________________________________________________________________________
+
+ frontend ko backend ke sth integrate / communicate krane ke liye hum use krte hain Axios: 
+
+ npm i axios
+
+
+
+ _________________________________________________________________________
+
+ CORS (Cross-Origin Resource Sharing) ek security mechanism hai jo browsers mein implement hota hai. Iska use tab kiya jata hai jab ek web application (client) dusre domain (server) se resources request karti hai. cors package Node.js/Express applications mein CORS errors ko handle karne ke liye use hota hai. Chalo details mein samjhte hain: 😊
+
+ 1. CORS Kya Hai?
+    CORS ek browser security feature hai.
+
+    Ye check karta hai ki kya ek web application (e.g., http://localhost:3000) dusre domain (e.g., http://api.example.com) se resources (data) access kar sakti hai ya nahi.
+
+    Agar server allow nahi karta hai, toh browser request block kar deta hai.
+
+
+2. CORS Errors Kab Aate Hain?
+    Frontend aur Backend Different Domains Par Hote Hain:
+
+    Frontend: http://localhost:3000
+
+    Backend: http://localhost:5000
+
+    Browser Security:
+
+    Browser by default cross-origin requests block karta hai.   
+
+
+3. cors Package Kyo Use Karte Hain?
+    cors package Express.js applications mein CORS headers ko handle karta hai.
+
+    Ye server ko allow karta hai ki woh specify kare:
+
+    Kaunse domains se requests allow hain.
+
+    Kaunse HTTP methods (GET, POST, etc.) allow hain.
+
+    Kaunse headers allow hain.
+
+
+
+_________________________________________________________________________
+
+react-markdown ek popular package hai jo Markdown text ko React components mein render karne ke liye use hota hai. Markdown ek lightweight markup language hai jo plain text ko formatted HTML mein convert karti ha
